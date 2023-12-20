@@ -1,0 +1,76 @@
+Kushagras-MacBook-Air:DBT_Assignments kushagra$ ls -c
+PL_exercises		assignment14.txt	assignment6.txt
+assignment1.txt		assignment15.txt	assignment7.txt
+assignment10.txt	assignment2.txt		assignment8.txt
+assignment11.txt	assignment3.txt		assignment9.txt
+assignment12.txt	assignment4.txt		exercises
+assignment13.txt	assignment5.txt
+
+
+Kushagras-MacBook-Air:DBT_Assignments kushagra$ ls -s
+total 120
+0 PL_exercises		8 assignment14.txt	8 assignment6.txt
+8 assignment1.txt	8 assignment15.txt	8 assignment7.txt
+8 assignment10.txt	8 assignment2.txt	8 assignment8.txt
+8 assignment11.txt	8 assignment3.txt	8 assignment9.txt
+8 assignment12.txt	8 assignment4.txt	0 exercises
+8 assignment13.txt	8 assignment5.txt
+
+Kushagras-MacBook-Air:DBT_Assignments kushagra$ ls -i
+12183969 PL_exercises		11703808 assignment3.txt
+11698771 assignment1.txt	11698637 assignment4.txt
+11997981 assignment10.txt	11698533 assignment5.txt
+11990221 assignment11.txt	11705826 assignment6.txt
+12000017 assignment12.txt	11972397 assignment7.txt
+12162449 assignment13.txt	11972075 assignment8.txt
+11998904 assignment14.txt	11979909 assignment9.txt
+12188058 assignment15.txt	11990432 exercises
+11703550 assignment2.txt
+
+Kushagras-MacBook-Air:DBT_Assignments kushagra$ ls PL_exercises
+exercise1.txt		exercise4.txt		procedcursor.txt
+exercise2.txt		exercise5.txt
+exercise3.txt		exercise7.txt
+
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cat > testText.txt
+Kushagra Khatri    
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cat testText.txt
+Kushagra Khatri
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cat >> testText.txt
+Sunbeam Pune 
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cat testText.txt
+Kushagra Khatri
+Sunbeam Pune
+
+Kushagras-MacBook-Air:Linux_Commands kushagra$ touch testText.txt -A
+
+Kushagras-MacBook-Air:~ kushagra$ ls /desktop/DAC_Assignments_and_Notes/Linux_Commands/one/two/three/four/five
+5.txt	55.txt	555.txt
+
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cat one/two/three/four/44.txt
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cat > one/two/three/four/44.txt
+Kushagra
+Kushagras-MacBook-Air:Linux_Commands kushagra$ rm one/two/three/four/five/555.txt
+Kushagras-MacBook-Air:Linux_Commands kushagra$ cd one/two/three/four/five/
+Kushagras-MacBook-Air:five kushagra$ cat > ../../3.txt
+PG-DAC
+Kushagras-MacBook-Air:five kushagra$ cat  ../../3.txt
+PG-DAC
+Kushagras-MacBook-Air:five kushagra$ ls ../../../
+2.txt	22.txt	222.txt	three
+Kushagras-MacBook-Air:five kushagra$ cd ../../../../
+Kushagras-MacBook-Air:one kushagra$ rm -r two/three/four/five/
+Kushagras-MacBook-Air:one kushagra$ rm -r two/three/four
+Kushagras-MacBook-Air:one kushagra$ cd ~
+
+Kushagras-MacBook-Air:three kushagra$ ls -l
+total 8
+-rw-r--r--  1 kushagra  staff  7 Nov 27 17:35 3.txt
+
+
+Kushagras-MacBook-Air:three kushagra$ touch -a 3.txt
+Kushagras-MacBook-Air:three kushagra$ ls  -l
+total 8
+-rw-r--r--  1 kushagra  staff  7 Nov 27 17:35 3.txt
+
+

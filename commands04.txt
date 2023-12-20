@@ -1,0 +1,71 @@
+Kushagras-MacBook-Air:Assignment04 kushagra$ cat > data.txt
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ wc data.txt 
+       6      25     145 data.txt
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep "files"
+data.txt
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep "files" data.txt
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep "file" data.txt
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep -v "file" data.txt
+Linux is open source.
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep -v "^f" data.txt
+Linux is open source.
+In Linux everything is file
+there are several types of files
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep "^f" data.txt
+files have permissions.
+files have inode no.
+files have size.
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep "have" data.txt
+files have permissions.
+files have inode no.
+files have size.
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ grep "\.$" data.txt
+Linux is open source.
+files have permissions.
+files have inode no.
+files have size.
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ head data.txt
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ head -2 data.txt
+Linux is open source.
+In Linux everything is file
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ tail -3 data.txt
+files have inode no.
+files have size.
+there are several types of files
+
+Kushagras-MacBook-Air:Assignment04 kushagra$ head -5 data.txt | tail -3
+files have permissions.
+files have inode no.
+files have size.
